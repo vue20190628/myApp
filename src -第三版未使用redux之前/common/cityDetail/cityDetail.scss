@@ -1,0 +1,14 @@
+/* react中使用sass cnpm i node-sass -D
+文件后缀    scss
+*/
+$font-color:blue;
+$color:red;
+$w:1000px;
+$h:300px;
+.wrapper{
+    width: $w;
+    height: $h;     
+    border:1px solid $font-color;  
+    color: $font-color;
+    font-size: 60px;   
+}

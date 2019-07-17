@@ -1,0 +1,23 @@
+/* react中使用sass cnpm i node-sass -D
+文件后缀    scss
+*/
+$font-color:blue;
+$color:red;
+$w:500px;
+$h:300px;
+.city-wrapper{
+    width: $w;
+    height: $h;     
+    border:1px solid $font-color;
+    p{
+        color: $font-color;
+        font-size: 30px; 
+          
+    }
+      
+    button{
+        color: $color; 
+        &:hover{font-size: 40px} 
+    }
+    
+}

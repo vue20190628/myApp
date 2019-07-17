@@ -1,0 +1,25 @@
+/* 
+react中使用sass
+cnpm i node-sass -D
+文件后缀 .scss
+*/
+$font-color : #0000ff;
+$w : 100px;
+$h : 50px;
+
+.city-wrapper{
+    color: $font-color;
+    border: 1px solid $font-color;
+    p {
+       font-size: 30px; 
+       span{
+           color: red;
+       }
+       &:hover{
+           text-decoration: underline;
+       }
+
+    }
+
+}
+// .city-wrapper p{}
